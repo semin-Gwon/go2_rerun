@@ -1,0 +1,890 @@
+[0.000000] (-) TimerEvent: {}
+[0.000287] (-) JobUnselected: {'identifier': 'go2_bringup'}
+[0.000439] (-) JobUnselected: {'identifier': 'go2_description'}
+[0.000487] (-) JobUnselected: {'identifier': 'go2_driver'}
+[0.000535] (-) JobUnselected: {'identifier': 'go2_interfaces'}
+[0.000585] (-) JobUnselected: {'identifier': 'go2_robot'}
+[0.000608] (-) JobUnselected: {'identifier': 'go2_rviz'}
+[0.000623] (-) JobUnselected: {'identifier': 'unitree_api'}
+[0.000677] (unitree_go) JobQueued: {'identifier': 'unitree_go', 'dependencies': OrderedDict()}
+[0.000695] (unitree_go) JobStarted: {'identifier': 'unitree_go'}
+[0.004214] (unitree_go) JobProgress: {'identifier': 'unitree_go', 'progress': 'cmake'}
+[0.004539] (unitree_go) Command: {'cmd': ['/home/jnu/anaconda3/bin/cmake', '/home/jnu/go2_ws/src/unitree_go', '-DCMAKE_INSTALL_PREFIX=/home/jnu/go2_ws/install/unitree_go'], 'cwd': '/home/jnu/go2_ws/build/unitree_go', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'ko:en'), ('USER', 'jnu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:'), ('ANTIGRAVITY_CLI_ALIAS', 'agy'), ('HOME', '/home/jnu'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('CONDA_SHLVL', '1'), ('CYCLONEDDS_URI', 'file:///home/jnu/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/antigravity/antigravity'), ('MANAGERPID', '1735'), ('SYSTEMD_EXEC_PID', '1987'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '411799'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jnu'), ('JOURNAL_STREAM', '8:11423'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jnu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/jnu/.local/bin:/home/jnu/anaconda3/bin:/home/jnu/anaconda3/condabin:/usr/local/cuda-11.8/bin:/home/jnu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JNU-1:@/tmp/.ICE-unix/1960,unix/JNU-1:/tmp/.ICE-unix/1960'), ('INVOCATION_ID', '4ed42423091c4c13b60da0b53c20c80f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-19e2445d44.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jnu/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jnu/go2_ws/build/unitree_go'), ('CUDA_HOME', '/usr/local/cuda-11.8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jnu/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/jnu/anaconda3'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.010859] (unitree_go) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.056490] (unitree_go) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.060328] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.061459] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.062847] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.081701] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.095555] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)\n'}
+[0.099925] (-) TimerEvent: {}
+[0.200231] (-) TimerEvent: {}
+[0.277337] (unitree_go) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.300351] (-) TimerEvent: {}
+[0.345600] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400471] (-) TimerEvent: {}
+[0.452049] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.475874] (unitree_go) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.494751] (unitree_go) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.494859] (unitree_go) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.494919] (unitree_go) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.500576] (-) TimerEvent: {}
+[0.513619] (unitree_go) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.552994] (unitree_go) StdoutLine: {'line': b'-- Generating done\n'}
+[0.558982] (unitree_go) StdoutLine: {'line': b'-- Build files have been written to: /home/jnu/go2_ws/build/unitree_go\n'}
+[0.562891] (unitree_go) CommandEnded: {'returncode': 0}
+[0.563387] (unitree_go) JobProgress: {'identifier': 'unitree_go', 'progress': 'build'}
+[0.563924] (unitree_go) Command: {'cmd': ['/home/jnu/anaconda3/bin/cmake', '--build', '/home/jnu/go2_ws/build/unitree_go', '--', '-j24', '-l24'], 'cwd': '/home/jnu/go2_ws/build/unitree_go', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'ko:en'), ('USER', 'jnu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:'), ('ANTIGRAVITY_CLI_ALIAS', 'agy'), ('HOME', '/home/jnu'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('CONDA_SHLVL', '1'), ('CYCLONEDDS_URI', 'file:///home/jnu/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/antigravity/antigravity'), ('MANAGERPID', '1735'), ('SYSTEMD_EXEC_PID', '1987'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '411799'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jnu'), ('JOURNAL_STREAM', '8:11423'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jnu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/jnu/.local/bin:/home/jnu/anaconda3/bin:/home/jnu/anaconda3/condabin:/usr/local/cuda-11.8/bin:/home/jnu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JNU-1:@/tmp/.ICE-unix/1960,unix/JNU-1:/tmp/.ICE-unix/1960'), ('INVOCATION_ID', '4ed42423091c4c13b60da0b53c20c80f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-19e2445d44.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jnu/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jnu/go2_ws/build/unitree_go'), ('CUDA_HOME', '/usr/local/cuda-11.8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jnu/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/jnu/anaconda3'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.600699] (-) TimerEvent: {}
+[0.609097] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_symlink_unitree_go\x1b[0m\n'}
+[0.611075] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__dds_connext_idl\x1b[0m\n'}
+[0.611921] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__cpp\x1b[0m\n'}
+[0.613116] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_generator_c\x1b[0m\n'}
+[0.623988] (unitree_go) StdoutLine: {'line': b'[  0%] Built target unitree_go__dds_connext_idl\n'}
+[0.627589] (unitree_go) StdoutLine: {'line': b'[  0%] Built target unitree_go__cpp\n'}
+[0.627726] (unitree_go) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_unitree_go\n'}
+[0.632746] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_build_unitree_go_egg\x1b[0m\n'}
+[0.633190] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.634167] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.634549] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.637505] (unitree_go) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/bms_cmd__functions.c.o\x1b[0m\n'}
+[0.638163] (unitree_go) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/audio_data__functions.c.o\x1b[0m\n'}
+[0.638301] (unitree_go) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/go2_front_video_data__functions.c.o\x1b[0m\n'}
+[0.638386] (unitree_go) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/error__functions.c.o\x1b[0m\n'}
+[0.640988] (unitree_go) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/bms_state__functions.c.o\x1b[0m\n'}
+[0.641168] (unitree_go) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/lidar_state__functions.c.o\x1b[0m\n'}
+[0.641240] (unitree_go) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/height_map__functions.c.o\x1b[0m\n'}
+[0.641310] (unitree_go) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/interface_config__functions.c.o\x1b[0m\n'}
+[0.641373] (unitree_go) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/imu_state__functions.c.o\x1b[0m\n'}
+[0.641436] (unitree_go) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/low_state__functions.c.o\x1b[0m\n'}
+[0.641506] (unitree_go) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/low_cmd__functions.c.o\x1b[0m\n'}
+[0.641571] (unitree_go) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_cmd__functions.c.o\x1b[0m\n'}
+[0.641628] (unitree_go) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_cmds__functions.c.o\x1b[0m\n'}
+[0.641790] (unitree_go) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_state__functions.c.o\x1b[0m\n'}
+[0.641863] (unitree_go) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/path_point__functions.c.o\x1b[0m\n'}
+[0.642008] (unitree_go) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_states__functions.c.o\x1b[0m\n'}
+[0.643324] (unitree_go) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/req__functions.c.o\x1b[0m\n'}
+[0.643484] (unitree_go) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/sport_mode_state__functions.c.o\x1b[0m\n'}
+[0.643555] (unitree_go) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/sport_mode_cmd__functions.c.o\x1b[0m\n'}
+[0.643614] (unitree_go) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/res__functions.c.o\x1b[0m\n'}
+[0.664083] (unitree_go) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/audio_data__type_support.cpp.o\x1b[0m\n'}
+[0.664265] (unitree_go) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/audio_data__type_support.cpp.o\x1b[0m\n'}
+[0.672174] (unitree_go) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/audio_data__type_support.cpp.o\x1b[0m\n'}
+[0.678030] (unitree_go) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/time_spec__functions.c.o\x1b[0m\n'}
+[0.678252] (unitree_go) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/bms_cmd__type_support.cpp.o\x1b[0m\n'}
+[0.678378] (unitree_go) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/bms_cmd__type_support.cpp.o\x1b[0m\n'}
+[0.678469] (unitree_go) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/uwb_switch__functions.c.o\x1b[0m\n'}
+[0.678539] (unitree_go) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/bms_cmd__type_support.cpp.o\x1b[0m\n'}
+[0.678577] (unitree_go) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/uwb_state__functions.c.o\x1b[0m\n'}
+[0.678611] (unitree_go) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/bms_state__type_support.cpp.o\x1b[0m\n'}
+[0.678644] (unitree_go) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/voxel_map_compressed__functions.c.o\x1b[0m\n'}
+[0.679833] (unitree_go) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/voxel_height_map_state__functions.c.o\x1b[0m\n'}
+[0.680682] (unitree_go) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/bms_state__type_support.cpp.o\x1b[0m\n'}
+[0.680761] (unitree_go) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/error__type_support.cpp.o\x1b[0m\n'}
+[0.681011] (unitree_go) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/error__type_support.cpp.o\x1b[0m\n'}
+[0.681106] (unitree_go) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/go2_front_video_data__type_support.cpp.o\x1b[0m\n'}
+[0.681185] (unitree_go) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/wireless_controller__functions.c.o\x1b[0m\n'}
+[0.681690] (unitree_go) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/height_map__type_support.cpp.o\x1b[0m\n'}
+[0.684904] (unitree_go) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o\x1b[0m\n'}
+[0.685215] (unitree_go) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/imu_state__type_support.cpp.o\x1b[0m\n'}
+[0.685282] (unitree_go) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/error__type_support.cpp.o\x1b[0m\n'}
+[0.685344] (unitree_go) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/go2_front_video_data__type_support.cpp.o\x1b[0m\n'}
+[0.689467] (unitree_go) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/go2_front_video_data__type_support.cpp.o\x1b[0m\n'}
+[0.701453] (-) TimerEvent: {}
+[0.715904] (unitree_go) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/height_map__type_support.cpp.o\x1b[0m\n'}
+[0.716636] (unitree_go) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/interface_config__type_support.cpp.o\x1b[0m\n'}
+[0.721613] (unitree_go) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/height_map__type_support.cpp.o\x1b[0m\n'}
+[0.722933] (unitree_go) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/interface_config__type_support.cpp.o\x1b[0m\n'}
+[0.724023] (unitree_go) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/imu_state__type_support.cpp.o\x1b[0m\n'}
+[0.730498] (unitree_go) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libunitree_go__rosidl_generator_c.so\x1b[0m\n'}
+[0.804110] (unitree_go) StdoutLine: {'line': b'[ 20%] Built target unitree_go__rosidl_generator_c\n'}
+[0.804394] (-) TimerEvent: {}
+[0.812676] (unitree_go) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/lidar_state__type_support.cpp.o\x1b[0m\n'}
+[0.904551] (-) TimerEvent: {}
+[0.909888] (unitree_go) StdoutLine: {'line': b'running egg_info\n'}
+[0.910965] (unitree_go) StdoutLine: {'line': b'writing unitree_go.egg-info/PKG-INFO\n'}
+[0.911553] (unitree_go) StdoutLine: {'line': b'writing dependency_links to unitree_go.egg-info/dependency_links.txt\n'}
+[0.912101] (unitree_go) StdoutLine: {'line': b'writing top-level names to unitree_go.egg-info/top_level.txt\n'}
+[0.915007] (unitree_go) StdoutLine: {'line': b"reading manifest file 'unitree_go.egg-info/SOURCES.txt'\n"}
+[0.916564] (unitree_go) StdoutLine: {'line': b"writing manifest file 'unitree_go.egg-info/SOURCES.txt'\n"}
+[0.917093] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_typesupport_c\x1b[0m\n'}
+[0.941491] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.942066] (unitree_go) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/imu_state__type_support.cpp.o\x1b[0m\n'}
+[0.942430] (unitree_go) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/low_cmd__type_support.cpp.o\x1b[0m\n'}
+[0.942548] (unitree_go) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/audio_data__type_support.cpp.o\x1b[0m\n'}
+[0.946894] (unitree_go) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/interface_config__type_support.cpp.o\x1b[0m\n'}
+[0.955110] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.956794] (unitree_go) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/low_state__type_support.cpp.o\x1b[0m\n'}
+[0.968129] (unitree_go) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_unitree_go_egg\n'}
+[0.976267] (unitree_go) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[0.978920] (unitree_go) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/bms_cmd__type_support.cpp.o\x1b[0m\n'}
+[0.981678] (unitree_go) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/audio_data__type_support_c.cpp.o\x1b[0m\n'}
+[0.999855] (unitree_go) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/audio_data__type_support.c.o\x1b[0m\n'}
+[1.007134] (-) TimerEvent: {}
+[1.011745] (unitree_go) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/bms_state__type_support.cpp.o\x1b[0m\n'}
+[1.029009] (unitree_go) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/lidar_state__type_support.cpp.o\x1b[0m\n'}
+[1.039305] (unitree_go) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/error__type_support.cpp.o\x1b[0m\n'}
+[1.046311] (unitree_go) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/bms_cmd__type_support.c.o\x1b[0m\n'}
+[1.052889] (unitree_go) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/go2_front_video_data__type_support.cpp.o\x1b[0m\n'}
+[1.053468] (unitree_go) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/bms_state__type_support.c.o\x1b[0m\n'}
+[1.069076] (unitree_go) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/motor_cmds__type_support.cpp.o\x1b[0m\n'}
+[1.078226] (unitree_go) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/bms_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[1.078710] (unitree_go) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/bms_state__type_support_c.cpp.o\x1b[0m\n'}
+[1.078956] (unitree_go) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/lidar_state__type_support.cpp.o\x1b[0m\n'}
+[1.079806] (unitree_go) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/error__type_support.c.o\x1b[0m\n'}
+[1.080094] (unitree_go) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/height_map__type_support.cpp.o\x1b[0m\n'}
+[1.088995] (unitree_go) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/imu_state__type_support.cpp.o\x1b[0m\n'}
+[1.091184] (unitree_go) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/error__type_support_c.cpp.o\x1b[0m\n'}
+[1.091590] (unitree_go) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/low_cmd__type_support.cpp.o\x1b[0m\n'}
+[1.097522] (unitree_go) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/go2_front_video_data__type_support_c.cpp.o\x1b[0m\n'}
+[1.107491] (unitree_go) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/go2_front_video_data__type_support.c.o\x1b[0m\n'}
+[1.108337] (-) TimerEvent: {}
+[1.109237] (unitree_go) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o\x1b[0m\n'}
+[1.109548] (unitree_go) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/height_map__type_support_c.cpp.o\x1b[0m\n'}
+[1.118384] (unitree_go) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/interface_config__type_support.cpp.o\x1b[0m\n'}
+[1.122437] (unitree_go) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/imu_state__type_support_c.cpp.o\x1b[0m\n'}
+[1.122668] (unitree_go) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/interface_config__type_support_c.cpp.o\x1b[0m\n'}
+[1.125387] (unitree_go) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/motor_states__type_support.cpp.o\x1b[0m\n'}
+[1.133060] (unitree_go) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/low_state__type_support.cpp.o\x1b[0m\n'}
+[1.141088] (unitree_go) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/lidar_state__type_support.cpp.o\x1b[0m\n'}
+[1.143996] (unitree_go) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/height_map__type_support.c.o\x1b[0m\n'}
+[1.153517] (unitree_go) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[1.166797] (unitree_go) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/low_cmd__type_support.cpp.o\x1b[0m\n'}
+[1.178504] (unitree_go) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/imu_state__type_support.c.o\x1b[0m\n'}
+[1.187212] (unitree_go) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/lidar_state__type_support_c.cpp.o\x1b[0m\n'}
+[1.199240] (unitree_go) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/low_state__type_support.cpp.o\x1b[0m\n'}
+[1.208522] (-) TimerEvent: {}
+[1.230453] (unitree_go) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/interface_config__type_support.c.o\x1b[0m\n'}
+[1.239188] (unitree_go) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[1.265382] (unitree_go) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/path_point__type_support.cpp.o\x1b[0m\n'}
+[1.271133] (unitree_go) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/lidar_state__type_support.c.o\x1b[0m\n'}
+[1.271410] (unitree_go) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/motor_cmds__type_support.cpp.o\x1b[0m\n'}
+[1.304897] (unitree_go) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/low_cmd__type_support.c.o\x1b[0m\n'}
+[1.305158] (unitree_go) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/low_state__type_support.c.o\x1b[0m\n'}
+[1.307716] (unitree_go) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[1.308583] (-) TimerEvent: {}
+[1.327321] (unitree_go) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/motor_cmd__type_support.c.o\x1b[0m\n'}
+[1.336991] (unitree_go) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_cmds__type_support.cpp.o\x1b[0m\n'}
+[1.337536] (unitree_go) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/motor_states__type_support.cpp.o\x1b[0m\n'}
+[1.345767] (unitree_go) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/low_cmd__type_support.cpp.o\x1b[0m\n'}
+[1.346014] (unitree_go) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/req__type_support.cpp.o\x1b[0m\n'}
+[1.346078] (unitree_go) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/motor_cmds__type_support.c.o\x1b[0m\n'}
+[1.354833] (unitree_go) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/low_state__type_support.cpp.o\x1b[0m\n'}
+[1.357910] (unitree_go) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/res__type_support.cpp.o\x1b[0m\n'}
+[1.361188] (unitree_go) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/low_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[1.364817] (unitree_go) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[1.369663] (unitree_go) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/path_point__type_support.cpp.o\x1b[0m\n'}
+[1.379065] (unitree_go) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/motor_state__type_support.c.o\x1b[0m\n'}
+[1.382484] (unitree_go) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_states__type_support.cpp.o\x1b[0m\n'}
+[1.388935] (unitree_go) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/req__type_support.cpp.o\x1b[0m\n'}
+[1.389216] (unitree_go) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/res__type_support.cpp.o\x1b[0m\n'}
+[1.392581] (unitree_go) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/sport_mode_cmd__type_support.cpp.o\x1b[0m\n'}
+[1.392965] (unitree_go) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/sport_mode_cmd__type_support.cpp.o\x1b[0m\n'}
+[1.393069] (unitree_go) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/low_state__type_support_c.cpp.o\x1b[0m\n'}
+[1.393333] (unitree_go) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[1.396819] (unitree_go) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/motor_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[1.405470] (unitree_go) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/sport_mode_state__type_support.cpp.o\x1b[0m\n'}
+[1.411755] (-) TimerEvent: {}
+[1.413145] (unitree_go) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_cmds__type_support.cpp.o\x1b[0m\n'}
+[1.413574] (unitree_go) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_state__type_support.cpp.o\x1b[0m\n'}
+[1.413814] (unitree_go) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/motor_states__type_support.c.o\x1b[0m\n'}
+[1.415423] (unitree_go) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_states__type_support.cpp.o\x1b[0m\n'}
+[1.424254] (unitree_go) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/path_point__type_support.cpp.o\x1b[0m\n'}
+[1.440147] (unitree_go) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/time_spec__type_support.cpp.o\x1b[0m\n'}
+[1.447522] (unitree_go) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/path_point__type_support.c.o\x1b[0m\n'}
+[1.469644] (unitree_go) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/uwb_state__type_support.cpp.o\x1b[0m\n'}
+[1.480954] (unitree_go) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/req__type_support.c.o\x1b[0m\n'}
+[1.482333] (unitree_go) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/req__type_support.cpp.o\x1b[0m\n'}
+[1.490247] (unitree_go) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/res__type_support.cpp.o\x1b[0m\n'}
+[1.498691] (unitree_go) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/uwb_switch__type_support.cpp.o\x1b[0m\n'}
+[1.511895] (-) TimerEvent: {}
+[1.515957] (unitree_go) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/voxel_map_compressed__type_support.cpp.o\x1b[0m\n'}
+[1.516297] (unitree_go) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/res__type_support.c.o\x1b[0m\n'}
+[1.521911] (unitree_go) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/voxel_height_map_state__type_support.cpp.o\x1b[0m\n'}
+[1.528936] (unitree_go) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/motor_cmds__type_support_c.cpp.o\x1b[0m\n'}
+[1.547669] (unitree_go) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/sport_mode_cmd__type_support.cpp.o\x1b[0m\n'}
+[1.556167] (unitree_go) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/sport_mode_cmd__type_support.c.o\x1b[0m\n'}
+[1.563115] (unitree_go) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_go/msg/wireless_controller__type_support.cpp.o\x1b[0m\n'}
+[1.590235] (unitree_go) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/path_point__type_support.cpp.o\x1b[0m\n'}
+[1.594486] (unitree_go) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_go__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.599399] (unitree_go) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/sport_mode_state__type_support.cpp.o\x1b[0m\n'}
+[1.603340] (unitree_go) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/req__type_support.cpp.o\x1b[0m\n'}
+[1.605050] (unitree_go) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/sport_mode_state__type_support.c.o\x1b[0m\n'}
+[1.612042] (-) TimerEvent: {}
+[1.649119] (unitree_go) StdoutLine: {'line': b'[ 62%] Built target unitree_go__rosidl_typesupport_c\n'}
+[1.651828] (unitree_go) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/time_spec__type_support.c.o\x1b[0m\n'}
+[1.662176] (unitree_go) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/uwb_state__type_support.c.o\x1b[0m\n'}
+[1.665862] (unitree_go) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/res__type_support.cpp.o\x1b[0m\n'}
+[1.683458] (unitree_go) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/sport_mode_state__type_support.cpp.o\x1b[0m\n'}
+[1.690129] (unitree_go) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/uwb_switch__type_support.c.o\x1b[0m\n'}
+[1.694057] (unitree_go) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/time_spec__type_support.cpp.o\x1b[0m\n'}
+[1.703235] (unitree_go) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/sport_mode_cmd__type_support.cpp.o\x1b[0m\n'}
+[1.708218] (unitree_go) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/sport_mode_state__type_support.cpp.o\x1b[0m\n'}
+[1.712141] (-) TimerEvent: {}
+[1.725068] (unitree_go) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/motor_state__type_support_c.cpp.o\x1b[0m\n'}
+[1.725825] (unitree_go) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/uwb_state__type_support.cpp.o\x1b[0m\n'}
+[1.731180] (unitree_go) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/time_spec__type_support.cpp.o\x1b[0m\n'}
+[1.736165] (unitree_go) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/time_spec__type_support.cpp.o\x1b[0m\n'}
+[1.736602] (unitree_go) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/voxel_map_compressed__type_support.c.o\x1b[0m\n'}
+[1.766396] (unitree_go) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/voxel_height_map_state__type_support.c.o\x1b[0m\n'}
+[1.766857] (unitree_go) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/uwb_state__type_support.cpp.o\x1b[0m\n'}
+[1.769604] (unitree_go) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/uwb_switch__type_support.cpp.o\x1b[0m\n'}
+[1.796354] (unitree_go) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/voxel_map_compressed__type_support.cpp.o\x1b[0m\n'}
+[1.806264] (unitree_go) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/uwb_state__type_support.cpp.o\x1b[0m\n'}
+[1.810254] (unitree_go) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/uwb_switch__type_support.cpp.o\x1b[0m\n'}
+[1.812232] (-) TimerEvent: {}
+[1.813459] (unitree_go) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_go/msg/detail/wireless_controller__type_support.c.o\x1b[0m\n'}
+[1.817660] (unitree_go) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/voxel_map_compressed__type_support.cpp.o\x1b[0m\n'}
+[1.837022] (unitree_go) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/motor_states__type_support_c.cpp.o\x1b[0m\n'}
+[1.851517] (unitree_go) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/voxel_height_map_state__type_support.cpp.o\x1b[0m\n'}
+[1.851797] (unitree_go) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C shared library libunitree_go__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.859171] (unitree_go) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/voxel_height_map_state__type_support.cpp.o\x1b[0m\n'}
+[1.864450] (unitree_go) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_go/msg/detail/dds_fastrtps/wireless_controller__type_support.cpp.o\x1b[0m\n'}
+[1.867340] (unitree_go) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/path_point__type_support_c.cpp.o\x1b[0m\n'}
+[1.895311] (unitree_go) StdoutLine: {'line': b'[ 74%] Built target unitree_go__rosidl_typesupport_introspection_c\n'}
+[1.905045] (unitree_go) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/req__type_support_c.cpp.o\x1b[0m\n'}
+[1.912374] (-) TimerEvent: {}
+[1.965310] (unitree_go) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/uwb_switch__type_support.cpp.o\x1b[0m\n'}
+[1.984198] (unitree_go) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/res__type_support_c.cpp.o\x1b[0m\n'}
+[1.990950] (unitree_go) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/sport_mode_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[1.991622] (unitree_go) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/wireless_controller__type_support.cpp.o\x1b[0m\n'}
+[2.012500] (-) TimerEvent: {}
+[2.025345] (unitree_go) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/sport_mode_state__type_support_c.cpp.o\x1b[0m\n'}
+[2.032723] (unitree_go) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/time_spec__type_support_c.cpp.o\x1b[0m\n'}
+[2.034121] (unitree_go) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/voxel_map_compressed__type_support.cpp.o\x1b[0m\n'}
+[2.034572] (unitree_go) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/voxel_height_map_state__type_support.cpp.o\x1b[0m\n'}
+[2.035440] (unitree_go) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/uwb_state__type_support_c.cpp.o\x1b[0m\n'}
+[2.048457] (unitree_go) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/wireless_controller__type_support.cpp.o\x1b[0m\n'}
+[2.048730] (unitree_go) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/uwb_switch__type_support_c.cpp.o\x1b[0m\n'}
+[2.078166] (unitree_go) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/voxel_map_compressed__type_support_c.cpp.o\x1b[0m\n'}
+[2.112643] (-) TimerEvent: {}
+[2.137632] (unitree_go) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/wireless_controller__type_support_c.cpp.o\x1b[0m\n'}
+[2.138266] (unitree_go) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/voxel_height_map_state__type_support_c.cpp.o\x1b[0m\n'}
+[2.212757] (-) TimerEvent: {}
+[2.245984] (unitree_go) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_go__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.270593] (unitree_go) StdoutLine: {'line': b'[ 82%] Built target unitree_go__rosidl_typesupport_cpp\n'}
+[2.272373] (unitree_go) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_go__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.312851] (-) TimerEvent: {}
+[2.327256] (unitree_go) StdoutLine: {'line': b'[ 84%] Built target unitree_go__rosidl_typesupport_fastrtps_cpp\n'}
+[2.347118] (unitree_go) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_go__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.350784] (unitree_go) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_go__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.389342] (unitree_go) StdoutLine: {'line': b'[ 86%] Built target unitree_go__rosidl_typesupport_fastrtps_c\n'}
+[2.396730] (unitree_go) StdoutLine: {'line': b'[ 87%] Built target unitree_go__rosidl_typesupport_introspection_cpp\n'}
+[2.400581] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go\x1b[0m\n'}
+[2.404862] (unitree_go) StdoutLine: {'line': b'[ 87%] Built target unitree_go\n'}
+[2.409538] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__py\x1b[0m\n'}
+[2.412932] (-) TimerEvent: {}
+[2.414855] (unitree_go) StdoutLine: {'line': b'[ 88%] Built target unitree_go__py\n'}
+[2.419728] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_generator_py\x1b[0m\n'}
+[2.470159] (unitree_go) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_go2_front_video_data_s.c.o\x1b[0m\n'}
+[2.470423] (unitree_go) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_height_map_s.c.o\x1b[0m\n'}
+[2.470507] (unitree_go) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_bms_cmd_s.c.o\x1b[0m\n'}
+[2.470573] (unitree_go) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_low_cmd_s.c.o\x1b[0m\n'}
+[2.470635] (unitree_go) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_interface_config_s.c.o\x1b[0m\n'}
+[2.470740] (unitree_go) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_audio_data_s.c.o\x1b[0m\n'}
+[2.470834] (unitree_go) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_bms_state_s.c.o\x1b[0m\n'}
+[2.470897] (unitree_go) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_motor_cmd_s.c.o\x1b[0m\n'}
+[2.470995] (unitree_go) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_lidar_state_s.c.o\x1b[0m\n'}
+[2.471087] (unitree_go) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_error_s.c.o\x1b[0m\n'}
+[2.471220] (unitree_go) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_imu_state_s.c.o\x1b[0m\n'}
+[2.471783] (unitree_go) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_low_state_s.c.o\x1b[0m\n'}
+[2.471971] (unitree_go) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_motor_cmds_s.c.o\x1b[0m\n'}
+[2.472058] (unitree_go) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_motor_states_s.c.o\x1b[0m\n'}
+[2.473367] (unitree_go) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_motor_state_s.c.o\x1b[0m\n'}
+[2.473486] (unitree_go) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_req_s.c.o\x1b[0m\n'}
+[2.473554] (unitree_go) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_res_s.c.o\x1b[0m\n'}
+[2.474289] (unitree_go) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_path_point_s.c.o\x1b[0m\n'}
+[2.474478] (unitree_go) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_sport_mode_state_s.c.o\x1b[0m\n'}
+[2.474987] (unitree_go) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_sport_mode_cmd_s.c.o\x1b[0m\n'}
+[2.475338] (unitree_go) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_time_spec_s.c.o\x1b[0m\n'}
+[2.479608] (unitree_go) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_uwb_state_s.c.o\x1b[0m\n'}
+[2.480601] (unitree_go) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_uwb_switch_s.c.o\x1b[0m\n'}
+[2.482561] (unitree_go) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_voxel_map_compressed_s.c.o\x1b[0m\n'}
+[2.517183] (-) TimerEvent: {}
+[2.566821] (unitree_go) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_wireless_controller_s.c.o\x1b[0m\n'}
+[2.567043] (unitree_go) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_voxel_height_map_state_s.c.o\x1b[0m\n'}
+[2.616638] (unitree_go) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_go/libunitree_go__rosidl_generator_py.so\x1b[0m\n'}
+[2.617208] (-) TimerEvent: {}
+[2.640565] (unitree_go) StdoutLine: {'line': b'[100%] Built target unitree_go__rosidl_generator_py\n'}
+[2.645955] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.646044] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.646069] (unitree_go) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unitree_go__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.658514] (unitree_go) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_go/_unitree_go_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.659100] (unitree_go) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_go/_unitree_go_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.659633] (unitree_go) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/unitree_go__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_go/_unitree_go_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.717316] (-) TimerEvent: {}
+[2.735399] (unitree_go) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.736857] (unitree_go) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.736998] (unitree_go) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.752792] (unitree_go) StdoutLine: {'line': b'[100%] Built target unitree_go__rosidl_typesupport_c__pyext\n'}
+[2.753793] (unitree_go) StdoutLine: {'line': b'[100%] Built target unitree_go__rosidl_typesupport_introspection_c__pyext\n'}
+[2.756757] (unitree_go) StdoutLine: {'line': b'[100%] Built target unitree_go__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.761747] (unitree_go) CommandEnded: {'returncode': 0}
+[2.762140] (unitree_go) JobProgress: {'identifier': 'unitree_go', 'progress': 'install'}
+[2.764974] (unitree_go) Command: {'cmd': ['/home/jnu/anaconda3/bin/cmake', '--install', '/home/jnu/go2_ws/build/unitree_go'], 'cwd': '/home/jnu/go2_ws/build/unitree_go', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'ko:en'), ('USER', 'jnu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:'), ('ANTIGRAVITY_CLI_ALIAS', 'agy'), ('HOME', '/home/jnu'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('CONDA_SHLVL', '1'), ('CYCLONEDDS_URI', 'file:///home/jnu/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/antigravity/antigravity'), ('MANAGERPID', '1735'), ('SYSTEMD_EXEC_PID', '1987'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '411799'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jnu'), ('JOURNAL_STREAM', '8:11423'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jnu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/jnu/.local/bin:/home/jnu/anaconda3/bin:/home/jnu/anaconda3/condabin:/usr/local/cuda-11.8/bin:/home/jnu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JNU-1:@/tmp/.ICE-unix/1960,unix/JNU-1:/tmp/.ICE-unix/1960'), ('INVOCATION_ID', '4ed42423091c4c13b60da0b53c20c80f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-19e2445d44.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jnu/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jnu/go2_ws/build/unitree_go'), ('CUDA_HOME', '/usr/local/cuda-11.8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jnu/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/jnu/anaconda3'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.769380] (unitree_go) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.769888] (unitree_go) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.770082] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/ament_index/resource_index/rosidl_interfaces/unitree_go\n'}
+[2.770981] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/audio_data.h\n'}
+[2.771067] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/bms_cmd.h\n'}
+[2.771149] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/bms_state.h\n'}
+[2.771237] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__functions.h\n'}
+[2.771311] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__struct.h\n'}
+[2.771388] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__type_support.h\n'}
+[2.771493] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__functions.h\n'}
+[2.771540] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__struct.h\n'}
+[2.771615] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__type_support.h\n'}
+[2.771689] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__functions.h\n'}
+[2.771776] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__struct.h\n'}
+[2.771838] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__type_support.h\n'}
+[2.771911] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__functions.h\n'}
+[2.771985] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__struct.h\n'}
+[2.772138] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__type_support.h\n'}
+[2.772180] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__functions.h\n'}
+[2.772219] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__struct.h\n'}
+[2.772255] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__type_support.h\n'}
+[2.772293] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__functions.h\n'}
+[2.772328] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__struct.h\n'}
+[2.772363] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__type_support.h\n'}
+[2.772397] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__functions.h\n'}
+[2.772431] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__struct.h\n'}
+[2.772465] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__type_support.h\n'}
+[2.772500] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__functions.h\n'}
+[2.772536] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__struct.h\n'}
+[2.772570] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__type_support.h\n'}
+[2.772605] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__functions.h\n'}
+[2.772638] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__struct.h\n'}
+[2.772673] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__type_support.h\n'}
+[2.772707] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__functions.h\n'}
+[2.772741] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__struct.h\n'}
+[2.772775] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__type_support.h\n'}
+[2.772808] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__functions.h\n'}
+[2.772841] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__struct.h\n'}
+[2.772899] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__type_support.h\n'}
+[2.772939] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__functions.h\n'}
+[2.772973] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__struct.h\n'}
+[2.773019] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__type_support.h\n'}
+[2.773043] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__functions.h\n'}
+[2.773091] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__struct.h\n'}
+[2.773153] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__type_support.h\n'}
+[2.773200] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__functions.h\n'}
+[2.773238] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__struct.h\n'}
+[2.773275] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__type_support.h\n'}
+[2.773311] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__functions.h\n'}
+[2.773346] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__struct.h\n'}
+[2.773383] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__type_support.h\n'}
+[2.773416] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__functions.h\n'}
+[2.773455] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__struct.h\n'}
+[2.773500] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__type_support.h\n'}
+[2.773533] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__functions.h\n'}
+[2.773564] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__struct.h\n'}
+[2.773608] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__type_support.h\n'}
+[2.773653] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__functions.h\n'}
+[2.773675] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__struct.h\n'}
+[2.773713] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__type_support.h\n'}
+[2.773750] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__functions.h\n'}
+[2.773831] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__struct.h\n'}
+[2.773872] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__type_support.h\n'}
+[2.773895] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__functions.h\n'}
+[2.773929] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__struct.h\n'}
+[2.773995] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__type_support.h\n'}
+[2.774036] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__functions.h\n'}
+[2.774058] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__struct.h\n'}
+[2.774088] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__type_support.h\n'}
+[2.774146] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__functions.h\n'}
+[2.774189] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__struct.h\n'}
+[2.774243] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__type_support.h\n'}
+[2.774291] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__functions.h\n'}
+[2.774345] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__struct.h\n'}
+[2.774395] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__type_support.h\n'}
+[2.774450] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__functions.h\n'}
+[2.774505] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__struct.h\n'}
+[2.774588] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__type_support.h\n'}
+[2.774645] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__functions.h\n'}
+[2.774756] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__struct.h\n'}
+[2.774860] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__type_support.h\n'}
+[2.775004] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__functions.h\n'}
+[2.775243] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__struct.h\n'}
+[2.775412] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__type_support.h\n'}
+[2.775555] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/error.h\n'}
+[2.775693] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/go2_front_video_data.h\n'}
+[2.775761] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/height_map.h\n'}
+[2.775829] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/imu_state.h\n'}
+[2.775940] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/interface_config.h\n'}
+[2.776008] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/lidar_state.h\n'}
+[2.776110] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/low_cmd.h\n'}
+[2.776190] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/low_state.h\n'}
+[2.776257] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmd.h\n'}
+[2.776324] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmds.h\n'}
+[2.776426] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_state.h\n'}
+[2.776532] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_states.h\n'}
+[2.776600] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/path_point.h\n'}
+[2.776667] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/req.h\n'}
+[2.776733] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/res.h\n'}
+[2.776820] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.776919] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_cmd.h\n'}
+[2.776968] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_state.h\n'}
+[2.777024] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/time_spec.h\n'}
+[2.777101] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_state.h\n'}
+[2.777149] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_switch.h\n'}
+[2.777196] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/voxel_height_map_state.h\n'}
+[2.777253] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/voxel_map_compressed.h\n'}
+[2.777308] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/wireless_controller.h\n'}
+[2.777358] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/environment/library_path.sh\n'}
+[2.777422] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/environment/library_path.dsv\n'}
+[2.777764] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.777830] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[2.777902] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.777970] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778041] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778122] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778148] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778172] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778195] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778218] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778252] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778291] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778315] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778337] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778360] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778395] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778417] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778438] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778473] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778501] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778522] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778551] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778577] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778607] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778640] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778670] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_fastrtps_c.h\n'}
+[2.778705] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.778958] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_introspection_c.h\n'}
+[2.778995] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h\n'}
+[2.779033] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_introspection_c.h\n'}
+[2.779071] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_introspection_c.h\n'}
+[2.779108] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_c.h\n'}
+[2.779144] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_introspection_c.h\n'}
+[2.779178] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_introspection_c.h\n'}
+[2.779214] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_introspection_c.h\n'}
+[2.779248] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_introspection_c.h\n'}
+[2.779283] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h\n'}
+[2.779318] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_introspection_c.h\n'}
+[2.779352] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h\n'}
+[2.779386] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_introspection_c.h\n'}
+[2.779420] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_introspection_c.h\n'}
+[2.779455] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_introspection_c.h\n'}
+[2.779488] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_introspection_c.h\n'}
+[2.779522] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_introspection_c.h\n'}
+[2.779557] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_introspection_c.h\n'}
+[2.779594] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_introspection_c.h\n'}
+[2.779638] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_introspection_c.h\n'}
+[2.779694] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_introspection_c.h\n'}
+[2.779729] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_introspection_c.h\n'}
+[2.779764] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_introspection_c.h\n'}
+[2.779800] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__rosidl_typesupport_introspection_c.h\n'}
+[2.779836] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__rosidl_typesupport_introspection_c.h\n'}
+[2.779871] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_introspection_c.h\n'}
+[2.779908] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.780450] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/audio_data.hpp\n'}
+[2.780490] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/bms_cmd.hpp\n'}
+[2.780526] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/bms_state.hpp\n'}
+[2.780563] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__builder.hpp\n'}
+[2.780599] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__struct.hpp\n'}
+[2.780633] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__traits.hpp\n'}
+[2.780668] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__type_support.hpp\n'}
+[2.780704] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__builder.hpp\n'}
+[2.780738] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__struct.hpp\n'}
+[2.780772] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__traits.hpp\n'}
+[2.780806] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__type_support.hpp\n'}
+[2.780840] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__builder.hpp\n'}
+[2.780874] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__struct.hpp\n'}
+[2.780907] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__traits.hpp\n'}
+[2.780941] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__type_support.hpp\n'}
+[2.780976] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__builder.hpp\n'}
+[2.781010] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__struct.hpp\n'}
+[2.781045] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__traits.hpp\n'}
+[2.781080] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__type_support.hpp\n'}
+[2.781117] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__builder.hpp\n'}
+[2.781151] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__struct.hpp\n'}
+[2.781184] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__traits.hpp\n'}
+[2.781219] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__type_support.hpp\n'}
+[2.781254] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__builder.hpp\n'}
+[2.781288] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__struct.hpp\n'}
+[2.781321] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__traits.hpp\n'}
+[2.781355] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__type_support.hpp\n'}
+[2.781390] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__builder.hpp\n'}
+[2.781423] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__struct.hpp\n'}
+[2.781456] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__traits.hpp\n'}
+[2.781491] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__type_support.hpp\n'}
+[2.781526] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__builder.hpp\n'}
+[2.781561] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__struct.hpp\n'}
+[2.781595] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__traits.hpp\n'}
+[2.781628] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__type_support.hpp\n'}
+[2.781663] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__builder.hpp\n'}
+[2.781699] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__struct.hpp\n'}
+[2.781731] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__traits.hpp\n'}
+[2.781765] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__type_support.hpp\n'}
+[2.781799] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__builder.hpp\n'}
+[2.781833] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__struct.hpp\n'}
+[2.781866] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__traits.hpp\n'}
+[2.781899] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__type_support.hpp\n'}
+[2.781932] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__builder.hpp\n'}
+[2.781965] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__struct.hpp\n'}
+[2.781999] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__traits.hpp\n'}
+[2.782037] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__type_support.hpp\n'}
+[2.782073] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__builder.hpp\n'}
+[2.782111] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__struct.hpp\n'}
+[2.782163] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__traits.hpp\n'}
+[2.782218] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__type_support.hpp\n'}
+[2.782270] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__builder.hpp\n'}
+[2.782331] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__struct.hpp\n'}
+[2.782392] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__traits.hpp\n'}
+[2.782450] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__type_support.hpp\n'}
+[2.782510] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__builder.hpp\n'}
+[2.782573] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__struct.hpp\n'}
+[2.782634] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__traits.hpp\n'}
+[2.782698] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__type_support.hpp\n'}
+[2.782760] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__builder.hpp\n'}
+[2.782820] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__struct.hpp\n'}
+[2.782879] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__traits.hpp\n'}
+[2.782942] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__type_support.hpp\n'}
+[2.783001] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__builder.hpp\n'}
+[2.783067] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__struct.hpp\n'}
+[2.783126] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__traits.hpp\n'}
+[2.783186] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__type_support.hpp\n'}
+[2.783246] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__builder.hpp\n'}
+[2.783307] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__struct.hpp\n'}
+[2.783368] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__traits.hpp\n'}
+[2.783427] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__type_support.hpp\n'}
+[2.783486] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__builder.hpp\n'}
+[2.783550] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__struct.hpp\n'}
+[2.783608] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__traits.hpp\n'}
+[2.783668] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__type_support.hpp\n'}
+[2.783729] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__builder.hpp\n'}
+[2.783790] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__struct.hpp\n'}
+[2.783855] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__traits.hpp\n'}
+[2.783917] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__type_support.hpp\n'}
+[2.783975] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__builder.hpp\n'}
+[2.784057] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__struct.hpp\n'}
+[2.784108] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__traits.hpp\n'}
+[2.784167] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__type_support.hpp\n'}
+[2.784222] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__builder.hpp\n'}
+[2.784275] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__struct.hpp\n'}
+[2.784327] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__traits.hpp\n'}
+[2.784380] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__type_support.hpp\n'}
+[2.784438] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__builder.hpp\n'}
+[2.784494] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__struct.hpp\n'}
+[2.784550] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__traits.hpp\n'}
+[2.784607] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__type_support.hpp\n'}
+[2.784663] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__builder.hpp\n'}
+[2.784717] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__struct.hpp\n'}
+[2.784772] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__traits.hpp\n'}
+[2.784825] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__type_support.hpp\n'}
+[2.784879] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__builder.hpp\n'}
+[2.784930] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__struct.hpp\n'}
+[2.784983] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__traits.hpp\n'}
+[2.785039] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__type_support.hpp\n'}
+[2.785093] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__builder.hpp\n'}
+[2.785148] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__struct.hpp\n'}
+[2.785204] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__traits.hpp\n'}
+[2.785257] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__type_support.hpp\n'}
+[2.785308] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__builder.hpp\n'}
+[2.785363] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__struct.hpp\n'}
+[2.785415] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__traits.hpp\n'}
+[2.785454] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__type_support.hpp\n'}
+[2.785491] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/error.hpp\n'}
+[2.785540] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/go2_front_video_data.hpp\n'}
+[2.785615] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/height_map.hpp\n'}
+[2.785644] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/imu_state.hpp\n'}
+[2.785680] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/interface_config.hpp\n'}
+[2.785703] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/lidar_state.hpp\n'}
+[2.785734] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/low_cmd.hpp\n'}
+[2.785762] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/low_state.hpp\n'}
+[2.785790] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmd.hpp\n'}
+[2.785818] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmds.hpp\n'}
+[2.785846] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_state.hpp\n'}
+[2.785875] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_states.hpp\n'}
+[2.785909] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/path_point.hpp\n'}
+[2.785942] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/req.hpp\n'}
+[2.785975] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/res.hpp\n'}
+[2.786010] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.786054] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_cmd.hpp\n'}
+[2.786088] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_state.hpp\n'}
+[2.786122] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/time_spec.hpp\n'}
+[2.786156] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_state.hpp\n'}
+[2.786190] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_switch.hpp\n'}
+[2.786224] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/voxel_height_map_state.hpp\n'}
+[2.786258] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/voxel_map_compressed.hpp\n'}
+[2.786292] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/wireless_controller.hpp\n'}
+[2.786764] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.786805] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.786841] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.786877] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.786916] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.786953] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.786989] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787029] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787064] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787101] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787136] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787170] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787205] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787240] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787274] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787311] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787346] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787380] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787417] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787454] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787489] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787522] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787556] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787593] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787628] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787663] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787697] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.787944] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.787981] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788023] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788057] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788093] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788143] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788186] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788222] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788258] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788293] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788328] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788371] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788409] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788444] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788491] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788542] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788594] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788643] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788696] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788747] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788802] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788850] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788903] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.788961] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_height_map_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.789018] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/voxel_map_compressed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.789073] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.789161] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/environment/pythonpath.sh\n'}
+[2.789215] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/environment/pythonpath.dsv\n'}
+[2.789341] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[2.789380] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[2.789417] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[2.789452] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[2.789904] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/__init__.py\n'}
+[2.789941] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/_unitree_go_s.ep.rosidl_typesupport_c.c\n'}
+[2.789979] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/_unitree_go_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.790016] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/_unitree_go_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.790055] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/libunitree_go__rosidl_generator_py.so\n'}
+[2.790091] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/__init__.py\n'}
+[2.790127] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_audio_data.py\n'}
+[2.790162] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_audio_data_s.c\n'}
+[2.790197] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_cmd.py\n'}
+[2.790231] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_cmd_s.c\n'}
+[2.790264] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_state.py\n'}
+[2.790298] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_state_s.c\n'}
+[2.790332] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_error.py\n'}
+[2.790366] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_error_s.c\n'}
+[2.790400] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_go2_front_video_data.py\n'}
+[2.790435] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_go2_front_video_data_s.c\n'}
+[2.790480] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_height_map.py\n'}
+[2.790527] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_height_map_s.c\n'}
+[2.790574] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_imu_state.py\n'}
+[2.790625] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_imu_state_s.c\n'}
+[2.790690] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_interface_config.py\n'}
+[2.790726] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_interface_config_s.c\n'}
+[2.790778] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_lidar_state.py\n'}
+[2.790830] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_lidar_state_s.c\n'}
+[2.790881] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_cmd.py\n'}
+[2.790936] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_cmd_s.c\n'}
+[2.790993] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_state.py\n'}
+[2.791058] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_state_s.c\n'}
+[2.791119] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmd.py\n'}
+[2.791176] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmd_s.c\n'}
+[2.791250] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmds.py\n'}
+[2.791307] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmds_s.c\n'}
+[2.791365] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_state.py\n'}
+[2.791424] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_state_s.c\n'}
+[2.791480] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_states.py\n'}
+[2.791537] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_states_s.c\n'}
+[2.791596] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_path_point.py\n'}
+[2.791655] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_path_point_s.c\n'}
+[2.791715] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_req.py\n'}
+[2.791779] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_req_s.c\n'}
+[2.791837] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_res.py\n'}
+[2.791896] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_res_s.c\n'}
+[2.791954] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_cmd.py\n'}
+[2.792017] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_cmd_s.c\n'}
+[2.792147] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_state.py\n'}
+[2.792249] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_state_s.c\n'}
+[2.792335] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_time_spec.py\n'}
+[2.792413] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_time_spec_s.c\n'}
+[2.792495] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_state.py\n'}
+[2.792576] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_state_s.c\n'}
+[2.792653] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_switch.py\n'}
+[2.792728] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_switch_s.c\n'}
+[2.792805] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_voxel_height_map_state.py\n'}
+[2.792881] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_voxel_height_map_state_s.c\n'}
+[2.792957] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_voxel_map_compressed.py\n'}
+[2.793035] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_voxel_map_compressed_s.c\n'}
+[2.793126] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_wireless_controller.py\n'}
+[2.793167] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_wireless_controller_s.c\n'}
+[2.793209] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.793251] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.793284] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.793405] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.793501] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.793593] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.793660] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/AudioData.idl\n'}
+[2.793716] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/BmsCmd.idl\n'}
+[2.793768] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/BmsState.idl\n'}
+[2.793819] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/Error.idl\n'}
+[2.793876] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/Go2FrontVideoData.idl\n'}
+[2.793927] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/HeightMap.idl\n'}
+[2.793977] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/IMUState.idl\n'}
+[2.794033] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/InterfaceConfig.idl\n'}
+[2.794086] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/LidarState.idl\n'}
+[2.794135] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/LowCmd.idl\n'}
+[2.794183] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/LowState.idl\n'}
+[2.794231] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/MotorCmd.idl\n'}
+[2.794279] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/MotorCmds.idl\n'}
+[2.794326] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/MotorState.idl\n'}
+[2.794375] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/MotorStates.idl\n'}
+[2.794423] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/PathPoint.idl\n'}
+[2.794474] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/Req.idl\n'}
+[2.794532] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/Res.idl\n'}
+[2.794585] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/SportModeCmd.idl\n'}
+[2.794623] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/SportModeState.idl\n'}
+[2.794673] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/TimeSpec.idl\n'}
+[2.794721] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/UwbState.idl\n'}
+[2.794769] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/UwbSwitch.idl\n'}
+[2.794818] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/VoxelMapCompressed.idl\n'}
+[2.794867] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/VoxelHeightMapState.idl\n'}
+[2.794915] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/WirelessController.idl\n'}
+[2.794965] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/AudioData.msg\n'}
+[2.795013] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/BmsCmd.msg\n'}
+[2.795068] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/BmsState.msg\n'}
+[2.795114] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/Error.msg\n'}
+[2.795162] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/Go2FrontVideoData.msg\n'}
+[2.795209] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/HeightMap.msg\n'}
+[2.795257] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/IMUState.msg\n'}
+[2.795304] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/InterfaceConfig.msg\n'}
+[2.795351] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/LidarState.msg\n'}
+[2.795398] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/LowCmd.msg\n'}
+[2.795444] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/LowState.msg\n'}
+[2.795489] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/MotorCmd.msg\n'}
+[2.795535] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/MotorCmds.msg\n'}
+[2.795581] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/MotorState.msg\n'}
+[2.795627] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/MotorStates.msg\n'}
+[2.795673] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/PathPoint.msg\n'}
+[2.795719] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/Req.msg\n'}
+[2.795765] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/Res.msg\n'}
+[2.795812] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/SportModeCmd.msg\n'}
+[2.795859] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/SportModeState.msg\n'}
+[2.795905] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/TimeSpec.msg\n'}
+[2.795950] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/UwbState.msg\n'}
+[2.795996] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/UwbSwitch.msg\n'}
+[2.796049] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/VoxelMapCompressed.msg\n'}
+[2.796097] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/VoxelHeightMapState.msg\n'}
+[2.796143] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/WirelessController.msg\n'}
+[2.796339] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/AudioData_.idl\n'}
+[2.796382] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/BmsCmd_.idl\n'}
+[2.796417] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/BmsState_.idl\n'}
+[2.796449] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Error_.idl\n'}
+[2.796480] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Go2FrontVideoData_.idl\n'}
+[2.796514] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/HeightMap_.idl\n'}
+[2.796559] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/IMUState_.idl\n'}
+[2.796589] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/InterfaceConfig_.idl\n'}
+[2.796619] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/LidarState_.idl\n'}
+[2.796653] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/LowCmd_.idl\n'}
+[2.796687] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/LowState_.idl\n'}
+[2.796719] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorCmd_.idl\n'}
+[2.796753] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorCmds_.idl\n'}
+[2.796786] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorState_.idl\n'}
+[2.796838] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorStates_.idl\n'}
+[2.796874] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/PathPoint_.idl\n'}
+[2.796907] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Req_.idl\n'}
+[2.796945] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Res_.idl\n'}
+[2.796983] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/SportModeCmd_.idl\n'}
+[2.797023] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/SportModeState_.idl\n'}
+[2.797064] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/TimeSpec_.idl\n'}
+[2.797100] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/UwbState_.idl\n'}
+[2.797138] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/UwbSwitch_.idl\n'}
+[2.797175] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/VoxelHeightMapState_.idl\n'}
+[2.797213] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/VoxelMapCompressed_.idl\n'}
+[2.797250] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/msg/dds_connext/WirelessController_.idl\n'}
+[2.797322] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/ament_index/resource_index/package_run_dependencies/unitree_go\n'}
+[2.797386] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/ament_index/resource_index/parent_prefix_path/unitree_go\n'}
+[2.797451] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/environment/ament_prefix_path.sh\n'}
+[2.797508] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/environment/ament_prefix_path.dsv\n'}
+[2.797564] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/environment/path.sh\n'}
+[2.797618] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/environment/path.dsv\n'}
+[2.797672] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/local_setup.bash\n'}
+[2.797726] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/local_setup.sh\n'}
+[2.797778] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/local_setup.zsh\n'}
+[2.797829] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/local_setup.dsv\n'}
+[2.797871] (unitree_go) StdoutLine: {'line': b'-- Symlinking: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/package.dsv\n'}
+[2.802478] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/ament_index/resource_index/packages/unitree_go\n'}
+[2.802541] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/rosidl_cmake-extras.cmake\n'}
+[2.802585] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.802644] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.802705] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.802762] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.802819] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.802875] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.802935] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_goConfig.cmake\n'}
+[2.802974] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_goConfig-version.cmake\n'}
+[2.803035] (unitree_go) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/package.xml\n'}
+[2.803557] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so\n'}
+[2.803777] (unitree_go) StdoutLine: {'line': b'-- Set runtime path of "/home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so" to ""\n'}
+[2.804312] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so\n'}
+[2.804491] (unitree_go) StdoutLine: {'line': b'-- Set runtime path of "/home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.804873] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so\n'}
+[2.805076] (unitree_go) StdoutLine: {'line': b'-- Set runtime path of "/home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.805530] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so\n'}
+[2.805647] (unitree_go) StdoutLine: {'line': b'-- Set runtime path of "/home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so" to ""\n'}
+[2.806033] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.806301] (unitree_go) StdoutLine: {'line': b'-- Set runtime path of "/home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.806767] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so\n'}
+[2.807064] (unitree_go) StdoutLine: {'line': b'-- Set runtime path of "/home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.807426] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so\n'}
+[2.807561] (unitree_go) StdoutLine: {'line': b'-- Set runtime path of "/home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so" to ""\n'}
+[2.817386] (-) TimerEvent: {}
+[2.828471] (unitree_go) StdoutLine: {'line': b"Listing '/home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go'...\n"}
+[2.828572] (unitree_go) StdoutLine: {'line': b"Compiling '/home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/__init__.py'...\n"}
+[2.828599] (unitree_go) StdoutLine: {'line': b"Listing '/home/jnu/go2_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg'...\n"}
+[2.831402] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so\n'}
+[2.831662] (unitree_go) StdoutLine: {'line': b'-- Set runtime path of "/home/jnu/go2_ws/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so" to ""\n'}
+[2.831806] (unitree_go) StdoutLine: {'line': b'-- Old export file "/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cExport-noconfig.cmake].\n'}
+[2.831839] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cExport.cmake\n'}
+[2.831887] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.832082] (unitree_go) StdoutLine: {'line': b'-- Old export file "/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[2.832115] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.832156] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.832368] (unitree_go) StdoutLine: {'line': b'-- Old export file "/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[2.832459] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.832488] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.832645] (unitree_go) StdoutLine: {'line': b'-- Old export file "/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[2.832698] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cExport.cmake\n'}
+[2.832732] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.832881] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cppExport.cmake\n'}
+[2.833117] (unitree_go) StdoutLine: {'line': b'-- Old export file "/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[2.833152] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.833183] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.833365] (unitree_go) StdoutLine: {'line': b'-- Old export file "/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[2.833396] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.833428] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.833622] (unitree_go) StdoutLine: {'line': b'-- Old export file "/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[2.833656] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cppExport.cmake\n'}
+[2.833687] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.833847] (unitree_go) StdoutLine: {'line': b'-- Old export file "/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_pyExport-noconfig.cmake].\n'}
+[2.833880] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_pyExport.cmake\n'}
+[2.833908] (unitree_go) StdoutLine: {'line': b'-- Installing: /home/jnu/go2_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.834998] (unitree_go) CommandEnded: {'returncode': 0}
+[2.843317] (unitree_go) JobEnded: {'identifier': 'unitree_go', 'rc': 0}
+[2.843558] (-) EventReactorShutdown: {}

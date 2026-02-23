@@ -1,0 +1,6 @@
+Invoking command in '/home/jnu/go2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jnu/go2_ws/src/unitree_go -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jnu/go2_ws/install/unitree_go
+Invoked command in '/home/jnu/go2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jnu/go2_ws/src/unitree_go -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jnu/go2_ws/install/unitree_go
+Invoking command in '/home/jnu/go2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jnu/go2_ws/build/unitree_go -- -j24 -l24
+Invoked command in '/home/jnu/go2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jnu/go2_ws/build/unitree_go -- -j24 -l24
+Invoking command in '/home/jnu/go2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jnu/go2_ws/build/unitree_go
+Invoked command in '/home/jnu/go2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jnu/go2_ws/build/unitree_go

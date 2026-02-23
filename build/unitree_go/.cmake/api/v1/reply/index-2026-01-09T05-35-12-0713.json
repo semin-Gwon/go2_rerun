@@ -1,0 +1,54 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Unix Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "/home/jnu/anaconda3/bin/cmake",
+			"cpack" : "/home/jnu/anaconda3/bin/cpack",
+			"ctest" : "/home/jnu/anaconda3/bin/ctest",
+			"root" : "/home/jnu/anaconda3/share/cmake-3.19"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 19,
+			"patch" : 6,
+			"string" : "3.19.6",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-f2dce17420bafe942f3a.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 2
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-colcon-cmake" : 
+		{
+			"codemodel-v2" : 
+			{
+				"jsonFile" : "codemodel-v2-f2dce17420bafe942f3a.json",
+				"kind" : "codemodel",
+				"version" : 
+				{
+					"major" : 2,
+					"minor" : 2
+				}
+			}
+		}
+	}
+}

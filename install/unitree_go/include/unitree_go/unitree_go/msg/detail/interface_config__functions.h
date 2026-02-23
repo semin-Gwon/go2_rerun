@@ -1,0 +1,1 @@
+/home/jnu/go2_ws/build/unitree_go/rosidl_generator_c/unitree_go/msg/detail/interface_config__functions.h

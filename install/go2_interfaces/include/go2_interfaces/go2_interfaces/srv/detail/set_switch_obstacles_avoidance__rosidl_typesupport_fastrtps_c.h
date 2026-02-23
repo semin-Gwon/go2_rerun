@@ -1,0 +1,1 @@
+/home/jnu/go2_ws/build/go2_interfaces/rosidl_typesupport_fastrtps_c/go2_interfaces/srv/detail/set_switch_obstacles_avoidance__rosidl_typesupport_fastrtps_c.h

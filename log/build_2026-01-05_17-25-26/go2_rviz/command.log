@@ -1,0 +1,6 @@
+Invoking command in '/home/jnu/go2_ws/build/go2_rviz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jnu/go2_ws/src/go2_rviz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jnu/go2_ws/install/go2_rviz
+Invoked command in '/home/jnu/go2_ws/build/go2_rviz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jnu/go2_ws/src/go2_rviz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jnu/go2_ws/install/go2_rviz
+Invoking command in '/home/jnu/go2_ws/build/go2_rviz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jnu/go2_ws/build/go2_rviz -- -j24 -l24
+Invoked command in '/home/jnu/go2_ws/build/go2_rviz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jnu/go2_ws/build/go2_rviz -- -j24 -l24
+Invoking command in '/home/jnu/go2_ws/build/go2_rviz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jnu/go2_ws/build/go2_rviz
+Invoked command in '/home/jnu/go2_ws/build/go2_rviz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jnu/go2_ws/build/go2_rviz

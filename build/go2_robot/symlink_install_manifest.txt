@@ -1,0 +1,15 @@
+/home/jnu/go2_ws/install/go2_robot/share/ament_index/resource_index/package_run_dependencies/go2_robot
+/home/jnu/go2_ws/install/go2_robot/share/ament_index/resource_index/parent_prefix_path/go2_robot
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/environment/ament_prefix_path.sh
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/environment/ament_prefix_path.dsv
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/environment/path.sh
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/environment/path.dsv
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/local_setup.bash
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/local_setup.sh
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/local_setup.zsh
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/local_setup.dsv
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/package.dsv
+/home/jnu/go2_ws/install/go2_robot/share/ament_index/resource_index/packages/go2_robot
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/cmake/go2_robotConfig.cmake
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/cmake/go2_robotConfig-version.cmake
+/home/jnu/go2_ws/install/go2_robot/share/go2_robot/package.xml

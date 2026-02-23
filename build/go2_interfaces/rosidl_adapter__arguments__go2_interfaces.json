@@ -1,0 +1,27 @@
+{
+  "package_name": "go2_interfaces",
+  "non_idl_tuples": [
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/BodyHeight.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/ContinuousGait.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/Euler.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/FootRaiseHeight.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/GetBodyHeight.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/GetBrightness.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/GetFootRaiseHeight.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/GetSpeedLevel.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/GetState.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/GetSwitch.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/GetSwitchObstaclesAvoidance.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/GetVolume.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/Mode.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/Pose.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/Say.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/SetBrightness.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/SetSwitch.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/SetSwitchObstaclesAvoidance.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/SetVolume.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/SpeedLevel.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/SwitchGait.srv",
+    "/home/jnu/go2_ws/src/go2_interfaces:srv/SwitchJoystick.srv"
+  ]
+}

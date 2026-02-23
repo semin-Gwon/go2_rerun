@@ -1,0 +1,16 @@
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/launch/go2.launch.py
+/home/jnu/go2_ws/install/go2_bringup/share/ament_index/resource_index/package_run_dependencies/go2_bringup
+/home/jnu/go2_ws/install/go2_bringup/share/ament_index/resource_index/parent_prefix_path/go2_bringup
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/environment/ament_prefix_path.sh
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/environment/ament_prefix_path.dsv
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/environment/path.sh
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/environment/path.dsv
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/local_setup.bash
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/local_setup.sh
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/local_setup.zsh
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/local_setup.dsv
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/package.dsv
+/home/jnu/go2_ws/install/go2_bringup/share/ament_index/resource_index/packages/go2_bringup
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/cmake/go2_bringupConfig.cmake
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/cmake/go2_bringupConfig-version.cmake
+/home/jnu/go2_ws/install/go2_bringup/share/go2_bringup/package.xml

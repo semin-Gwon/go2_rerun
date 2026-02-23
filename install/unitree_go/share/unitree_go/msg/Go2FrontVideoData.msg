@@ -1,0 +1,1 @@
+/home/jnu/go2_ws/src/unitree_go/msg/Go2FrontVideoData.msg

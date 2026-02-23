@@ -1,0 +1,1 @@
+/home/jnu/go2_ws/build/go2_interfaces/rosidl_generator_c/go2_interfaces/srv/detail/get_switch_obstacles_avoidance__struct.h

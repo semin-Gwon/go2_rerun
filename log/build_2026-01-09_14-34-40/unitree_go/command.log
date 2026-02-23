@@ -1,0 +1,2 @@
+Invoking command in '/home/jnu/go2_ws/build/unitree_go': CONDA_PROMPT_MODIFIER=(base) /home/jnu/anaconda3/bin/cmake /home/jnu/go2_ws/src/unitree_go -DCMAKE_INSTALL_PREFIX=/home/jnu/go2_ws/install/unitree_go
+Invoked command in '/home/jnu/go2_ws/build/unitree_go' returned '1': CONDA_PROMPT_MODIFIER=(base) /home/jnu/anaconda3/bin/cmake /home/jnu/go2_ws/src/unitree_go -DCMAKE_INSTALL_PREFIX=/home/jnu/go2_ws/install/unitree_go
