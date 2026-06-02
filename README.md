@@ -29,7 +29,7 @@ The main portfolio work in this repository is `map_success.py`: a multi-threaded
 ├── multi_thread.py             # Earlier multi-threading experiment
 ├── ros2_to_rerun.py            # Basic RGB-D to Rerun prototype
 ├── deployment_guide_ko.md      # Korean deployment guide
-├── go2_description/            # Local Go2 mesh/URDF assets used by Rerun
+├── go2_description/            # Local Go2 mesh and URDF assets used by Rerun
 ├── src/                        # ROS2 package submodules
 │   ├── go2_bringup
 │   ├── go2_description
