@@ -75,24 +75,34 @@ Python dependencies:
 pip3 install rerun-sdk lz4 numpy opencv-python
 ```
 
-If you want the exact deployment notes used during development, see `deployment_guide_ko.md`.
+The execution order below incorporates the deployment notes used during development.
 
-## Clone
+## Execution Order
 
-This repository uses submodules for the ROS2 packages under `src/`.
+Follow this order when setting up the workspace on a new machine.
+
+### 1. Prepare ROS2
+
+Install and source ROS2 Humble first:
 
 ```bash
-git clone --recursive git@github.com:semin-Gwon/mygit.git go2_ws
+source /opt/ros/humble/setup.bash
+```
+
+### 2. Clone With Submodules
+
+```bash
+git clone --recursive git@github.com:semin-Gwon/go2_rerun.git go2_ws
 cd go2_ws
 ```
 
-If you already cloned without submodules:
+If the repository was cloned without submodules:
 
 ```bash
 git submodule update --init --recursive
 ```
 
-## Build
+### 3. Install ROS Dependencies and Build
 
 ```bash
 cd ~/go2_ws
@@ -104,9 +114,37 @@ source install/setup.bash
 
 Depending on your Go2 SDK setup, you may also need the Python dependencies from `src/go2_ros2_sdk/requirements.txt`.
 
-## Run
+### 4. Install Python Dependencies
 
-Start the robot-side or SDK-side ROS2 nodes first so the Go2 topics are available. Then run:
+```bash
+pip3 install rerun-sdk lz4 numpy opencv-python
+```
+
+`lz4` is required for decoding `VoxelMapCompressed` data.
+
+### 5. Check Local Paths
+
+Before running on another PC, update the hardcoded local paths in `map_success.py` if needed:
+
+```text
+/home/jnu/go2_ws/install/unitree_go/...
+/home/jnu/go2_ws/go2_description/assets
+```
+
+### 6. Start Go2 ROS2 Data Publishers
+
+Start the robot-side or SDK-side ROS2 nodes first so these topics are available:
+
+```text
+/my_go2/color/image_raw/compressed
+/my_go2/depth/image_rect_raw
+/utlidar/cloud
+/utlidar/robot_odom
+/lf/lowstate
+/utlidar/voxel_map_compressed
+```
+
+### 7. Run the Rerun Visualization
 
 ```bash
 cd ~/go2_ws
@@ -176,4 +214,3 @@ This workspace builds on public Unitree Go2 ROS2 packages and SDKs:
 ## License
 
 This repository combines custom scripts with external ROS2 packages and robot assets. Check each upstream submodule for its own license. Add a root `LICENSE` file before redistributing this repository as a standalone public project.
-
