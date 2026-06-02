@@ -1,5 +1,7 @@
 # Unitree Go2 ROS2 Rerun Visualization Workspace
 
+Language: English | [한국어](README.ko.md)
+
 [![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue)](https://docs.ros.org/en/humble/)
 [![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-22.04-E95420?logo=ubuntu&logoColor=white)](https://releases.ubuntu.com/22.04/)
 [![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -26,6 +28,7 @@ The main portfolio work in this repository is `map_success.py`: a multi-threaded
 ```text
 .
 ├── README.md                   # Project overview and execution guide
+├── README.ko.md                # Korean project overview and execution guide
 ├── map_success.py              # Final Rerun visualization node
 ├── go2_description/            # Local Go2 model assets used by Rerun
 │   ├── assets/                 # OBJ meshes loaded by map_success.py
