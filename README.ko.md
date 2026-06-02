@@ -212,8 +212,8 @@ pip3 install lz4
 
 이 워크스페이스는 다음 외부 GitHub 출처를 기반으로 합니다.
 
-- `Unitree-Go2-Robot` organization 패키지: `go2_bringup`, `go2_description`, `go2_driver`, `go2_interfaces`, `go2_robot`, `go2_rviz`, `unitree_api`, `unitree_go`
-- `abizovnuralem/go2_ros2_sdk`
+- [Unitree-Go2-Robot](https://github.com/Unitree-Go2-Robot) organization 패키지: `go2_bringup`, `go2_description`, `go2_driver`, `go2_interfaces`, `go2_robot`, `go2_rviz`, `unitree_api`, `unitree_go`
+- [abizovnuralem/go2_ros2_sdk](https://github.com/abizovnuralem/go2_ros2_sdk)
 
 ## 라이선스
 

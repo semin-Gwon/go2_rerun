@@ -212,8 +212,8 @@ The ROS2 packages under `src/` are tracked as submodules instead of copying thei
 
 This workspace builds on these external GitHub sources:
 
-- `Unitree-Go2-Robot` organization packages: `go2_bringup`, `go2_description`, `go2_driver`, `go2_interfaces`, `go2_robot`, `go2_rviz`, `unitree_api`, and `unitree_go`
-- `abizovnuralem/go2_ros2_sdk`
+- [Unitree-Go2-Robot](https://github.com/Unitree-Go2-Robot) organization packages: `go2_bringup`, `go2_description`, `go2_driver`, `go2_interfaces`, `go2_robot`, `go2_rviz`, `unitree_api`, and `unitree_go`
+- [abizovnuralem/go2_ros2_sdk](https://github.com/abizovnuralem/go2_ros2_sdk)
 
 ## License
 
