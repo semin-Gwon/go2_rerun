@@ -19,17 +19,19 @@ The main portfolio work in this repository is `map_success.py`: a multi-threaded
 - Unitree compressed voxel map decoding with LZ4 support.
 - Multi-threaded ROS2 callback handling using `MultiThreadedExecutor`.
 - Submodule-based ROS2 package layout for Unitree Go2 dependencies.
-- Korean deployment guide for setting up and running the visualization.
+- README-integrated setup and execution order for deployment.
 
 ## Repository Structure
 
 ```text
 .
-├── map_success.py              # Main Rerun visualization node
-├── multi_thread.py             # Earlier multi-threading experiment
-├── ros2_to_rerun.py            # Basic RGB-D to Rerun prototype
-├── deployment_guide_ko.md      # Korean deployment guide
-├── go2_description/            # Local Go2 mesh and URDF assets used by Rerun
+├── README.md                   # Project overview and execution guide
+├── map_success.py              # Final Rerun visualization node
+├── go2_description/            # Local Go2 model assets used by Rerun
+│   ├── assets/                 # OBJ meshes loaded by map_success.py
+│   ├── dae/                    # DAE mesh assets
+│   └── urdf/
+│       └── go2.urdf            # Go2 robot model description
 ├── src/                        # ROS2 package submodules
 │   ├── go2_bringup
 │   ├── go2_description
@@ -40,10 +42,12 @@ The main portfolio work in this repository is `map_success.py`: a multi-threaded
 │   ├── go2_rviz
 │   ├── unitree_api
 │   └── unitree_go
+├── .gitignore                  # Generated and machine-local file exclusions
 └── .gitmodules                 # External package sources
 ```
 
 Generated ROS2 workspace folders such as `build/`, `install/`, `log/`, and Python cache files are intentionally ignored.
+Development prototypes, local deployment notes, MuJoCo scene XML files, and removed PNG assets are kept out of the public project tree.
 
 ## Main Visualization Node
 
