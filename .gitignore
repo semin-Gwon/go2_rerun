@@ -1,0 +1,40 @@
+# ROS 2 / colcon build outputs
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Nested repository metadata from vendored source packages
+**/.git/
+**/.github/
+
+# Local environment files
+.env
+.env.*
+
+# Runtime logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Large generated maps / recordings
+*.bag
+*.db3
+*.mcap
+*.ply
+*.pcd
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+

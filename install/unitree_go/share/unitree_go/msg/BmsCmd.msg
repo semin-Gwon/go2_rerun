@@ -1,1 +1,0 @@
-/home/jnu/go2_ws/src/unitree_go/msg/BmsCmd.msg

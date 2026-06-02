@@ -1,1 +1,0 @@
-/home/jnu/go2_ws/build/go2_bringup/ament_cmake_core/go2_bringupConfig-version.cmake

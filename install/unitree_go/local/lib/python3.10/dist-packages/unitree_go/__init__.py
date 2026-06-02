@@ -1,1 +1,0 @@
-/home/jnu/go2_ws/build/unitree_go/rosidl_generator_py/unitree_go/__init__.py

@@ -1,1 +1,0 @@
-/home/jnu/go2_ws/build/go2_robot/ament_cmake_core/go2_robotConfig.cmake

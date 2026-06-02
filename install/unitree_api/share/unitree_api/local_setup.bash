@@ -1,1 +1,0 @@
-/home/jnu/go2_ws/build/unitree_api/ament_cmake_environment_hooks/local_setup.bash

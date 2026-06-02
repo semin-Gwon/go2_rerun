@@ -1,1 +1,0 @@
-/home/jnu/go2_ws/build/go2_interfaces/rosidl_generator_py/go2_interfaces/srv/_body_height_s.c

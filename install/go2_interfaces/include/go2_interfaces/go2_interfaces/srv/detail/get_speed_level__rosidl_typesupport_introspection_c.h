@@ -1,1 +1,0 @@
-/home/jnu/go2_ws/build/go2_interfaces/rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/get_speed_level__rosidl_typesupport_introspection_c.h

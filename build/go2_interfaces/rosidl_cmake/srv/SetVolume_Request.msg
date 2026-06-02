@@ -1,3 +1,0 @@
-# Set the volume of the robot speaker [0 - 10]
-int32 volume
-

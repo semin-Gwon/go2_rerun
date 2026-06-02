@@ -1,6 +1,0 @@
-# Get brightness.
-
----
-bool success
-string message
-int32 brightness

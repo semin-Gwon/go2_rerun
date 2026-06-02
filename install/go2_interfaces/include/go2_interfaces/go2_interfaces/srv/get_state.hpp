@@ -1,1 +1,0 @@
-/home/jnu/go2_ws/build/go2_interfaces/rosidl_generator_cpp/go2_interfaces/srv/get_state.hpp

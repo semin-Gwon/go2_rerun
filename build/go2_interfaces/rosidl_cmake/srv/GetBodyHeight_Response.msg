@@ -1,4 +1,0 @@
-
-bool success
-string message
-float32 height

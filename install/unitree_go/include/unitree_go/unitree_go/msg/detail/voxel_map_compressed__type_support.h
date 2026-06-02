@@ -1,1 +1,0 @@
-/home/jnu/go2_ws/build/unitree_go/rosidl_generator_c/unitree_go/msg/detail/voxel_map_compressed__type_support.h
