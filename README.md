@@ -217,4 +217,10 @@ This workspace builds on these external GitHub sources:
 
 ## License
 
-This repository combines custom scripts with external ROS2 packages and robot assets. Check each upstream submodule for its own license. Add a root `LICENSE` file before redistributing this repository as a standalone public project.
+This repository contains custom visualization code together with external ROS2 packages and robot model assets.
+
+- Custom code in this repository, including `map_success.py`, does not currently have a separate root license.
+- External packages under `src/` are governed by their original upstream licenses.
+- Robot model assets under `go2_description/` may require separate license review from Unitree or the original upstream source.
+
+Before redistributing or using this repository beyond personal portfolio purposes, review the upstream licenses and add a root `LICENSE` file for the custom code if needed.
